@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# VARS
+
 proxmoxHostname=`hostname` # get machine hostname
 configBackupPathLocal="/tmp" # temp local backup file path
 dateCurrent=`date +%Y-%m-%d_%H-%M-%S` # current date line
